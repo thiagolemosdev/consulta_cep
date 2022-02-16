@@ -1,0 +1,42 @@
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 30px;
+}
+
+div.pesquisa {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.pesquisa form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+div.pesquisa input {
+  height: 20px;
+  padding: 10px;
+}
+
+div.pesquisa button {
+  height: 30px;
+  padding: px;
+  border: none;
+  background-color: rgb(40, 73, 100);
+  color: #fff;
+  border-radius: 4px;
+}
+
+div.resposta {
+  font-family: Arial, Helvetica, sans-serif;
+  display: none;
+}
+
+div.resposta.ativo {
+  display: initial;
+}
