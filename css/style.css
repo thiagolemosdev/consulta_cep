@@ -60,8 +60,4 @@ div.resposta.ativo {
     font-size: 20px;
     margin-top: 5px;
   }
-
-  body {
-    overflow-x: hidden;
-  }
 }
