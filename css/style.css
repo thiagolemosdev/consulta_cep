@@ -55,4 +55,13 @@ div.resposta.ativo {
     flex-direction: column;
     gap: 20px;
   }
+
+  div.resposta ul li {
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
 }
