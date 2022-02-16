@@ -5,6 +5,7 @@ btnBuscar.addEventListener("click", buscar);
 
 function buscar(el) {
   el.preventDefault();
+  resposta.innerHTML = `<div> </div>`;
   const cep = document.querySelector("[data-cep]").value;
   fetch(`https://viacep.com.br/ws/${cep}/json/`)
     .then((r) => {

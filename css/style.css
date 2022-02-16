@@ -37,6 +37,22 @@ div.resposta {
   display: none;
 }
 
+div.resposta ul {
+  list-style: none;
+}
+
+div.resposta ul li {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
 div.resposta.ativo {
   display: initial;
+}
+
+@media (max-width: 650px) {
+  main {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
